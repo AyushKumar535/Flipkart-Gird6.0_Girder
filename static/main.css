@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/* style.css */
+body {
+  
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #4a4949;
+  color: #333;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+}
+
+.header .logo {
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.join-btn {
+  background-color: #b9991a;
+  color: #faf7f7;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.main-container {
+  display: flex;
+  background-image: url("https://wallpapercave.com/wp/wp11076377.jpg");
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.left-section {
+  flex: 2;
+  padding: 20px;
+  background-color: #f9f9f972;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.left-section h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 45px;
+  margin: 0;
+}
+
+.start-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.right-section {
+  flex: 1;
+  padding: 20px;
+  /* background-color: #f9f9f972; */
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.right-section img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+.right-section p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.contact-section {
+  flex: 1;
+  padding: 20px;
+  background-color: #c5822b6b;
+  
+  border-radius: 10px;
+  /* margin-right: 4px; */
+  text-align: center;
+}
+
+.contact-section img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.contact-section p {
+  margin: 5px 0;
+}
+
+.ratings-section {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.ratings-section p {
+  margin: 10px 0;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+}
+
+.container {
+  /* background-color: #fcce84; */
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.input-group:last-child {
+  margin-right: 0;
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: black;
+}
+
+input,
+select {
+  width: 85%;
+  padding: 10px;
+  border: 2px solid #e0e6ed;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
+}
+
+input,
+select:focus {
+  border-color: gray;
+  outline: none;
+}
+
+.button {
+  width: 100%;
+  padding: 12px;
+  background-color: black;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background-color: #30353a;
+}
+
+
+
+
+
+.footer-section {
+  color: #718096;
+  font-family: sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 1200px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #1a202c;
+  text-decoration: none;
+}
+
+.footer-title {
+  margin-left: 12px;
+  font-size: 24px;
+  color: #1a202c;
+}
+
+.footer-description {
+  font-size: 14px;
+  color: #718096;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-link {
+  color: #4a5568;
+  text-decoration: none;
+  margin-left: 4px;
+}
+
+.footer-link:hover {
+  color: #2d3748;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.footer-social-link {
+  color: black;
+  margin-left: 12px;
+  transition: color 0.3s;
+}
+
+.footer-social-link:hover {
+  color: #2d3748;
+}
+
+.footer-icon {
+  width: 24px;
+  height: 24px;
+}
